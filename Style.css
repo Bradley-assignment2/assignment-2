@@ -1,0 +1,15 @@
+body {
+    font-family: Helvetica,Arial, sans-serif;
+    text-align: center;
+    background-color:#FAFAFA;
+}
+
+Header {
+    background-color:#004475;
+    color: #FAFAFA;
+    padding: 20px;
+}
+
+Footer {
+    background-color:#414C57;
+}
