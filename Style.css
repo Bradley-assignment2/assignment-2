@@ -1,15 +1,50 @@
+/* Global Styles */
 body {
     font-family: Helvetica,Arial, sans-serif;
     text-align: center;
     background-color:#FAFAFA;
+    margin: 0;
+    padding: 0;
 }
 
+/*Navigation Styles*/
 Header {
     background-color:#004475;
     color: #FAFAFA;
     padding: 20px;
 }
 
-Footer {
-    background-color:#414C57;
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+    margin:auto;
+}
+
+.BelfastMetLogo {
+    height: 125px;
+}
+
+Nav ul {
+    list-style:none;
+    display:flex;
+    margin: 15px;
+    padding:0;
+}
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FAFAFA;
+    font-weight: bold;
+}
+
+/*Welcome Styles*/
+.welcome {
+    background-color:#004475;
+    color: #FAFAFA;
+    padding: 20px;
 }
