@@ -10,7 +10,7 @@ body {
 
 /*Logo Styles*/
 .belfastmetlogo {
-    height: 90px;
+    height: 80px;
     width: auto;
 }
 
@@ -18,11 +18,12 @@ body {
 Header {
     background-color:#004475;
     color: #FAFAFA;
-    padding: 20px;
+    padding:5px;
     display:flex;
     justify-content: center;
     align-items: center;
     position: sticky;
+    top:0;
     gap: 20px;
 }
 
