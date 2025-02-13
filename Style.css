@@ -12,8 +12,14 @@ body {
 .belfastmetlogo {
     height: 80px;
     width: auto;
+    justify-content: right;
 }
 
+.belfastmetlogofooter {
+    height: 70px;
+    width: auto;
+    
+}
 .social-links {
     padding:10px;
    
@@ -38,9 +44,10 @@ Header {
     background-color:#004475;
     color: #FAFAFA;
     padding:5px;
+    max-height: 130px;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     position: sticky;
     top:0;
@@ -87,8 +94,35 @@ nav ul li a {
 @media screen and (max-width: 768px) {
     Header {
         position:static;
+        max-height: none;
     }
     
+}
+
+/*Footer Styles*/
+footer {
+    margin-top:40px;
+    background-color:#004475;
+    color: #FAFAFA;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+footer a {
+    color: #FAFAFA;
+    text-decoration: underline;
+}
+
+.social-links-footer {
+    display:flex;
+    gap: 20px;
+    font-size: 30px;
 }
 /*Welcome Styles*/
 .welcome {
@@ -108,7 +142,7 @@ nav ul li a {
 /*Home Page Image Styles*/
 .big-img img {
    border-radius: 8px;
-   width: 80%;
+   width: 70%;
    height: auto;
 }
 
@@ -204,4 +238,4 @@ nav ul li a {
         margin-bottom:20px;
         color:#414C57;
     }
-    
+
