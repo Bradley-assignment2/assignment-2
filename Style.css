@@ -8,43 +8,44 @@ body {
     color: #414C57;
 }
 
-/*Navigation Styles*/
+/*Logo Styles*/
+.belfastmetlogo {
+    height: 90px;
+    width: auto;
+}
+
+/*Navigation/Header Styles*/
 Header {
     background-color:#004475;
     color: #FAFAFA;
     padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    gap: 20px;
 }
 
-.title {
-    font-size: 36px;
-    color:#FAFAFA;
+.active {
+    text-decoration: underline;
     
-    text-align: center;
-    font-weight: bold;
-    margin-top: 20px;
-    padding: 20px;
 }
 nav {
     display:flex;
     justify-content: space-between;
-    align-items: center;
-    width:80%;
-    margin-top:20px;
 }
 
-.BelfastMetLogo {
-    height: 125px;
-
-}
 
 Nav ul {
     list-style:none;
     display:flex;
-    margin: 15px;
+    margin: 0;
     padding:0;
+    justify-content: center;
+    gap: 20px;
 }
 nav ul li {
-    margin: 0 10px;
+    margin: 0;
 }
 
 nav ul li a {
@@ -55,8 +56,8 @@ nav ul li a {
 
 /*Welcome Styles*/
 .welcome {
-    background-color:#004475;
-    color: #FAFAFA;
+    background-color:#FAFAFA;
+    color: #004475;
     padding: 20px;
 }
 
@@ -71,7 +72,7 @@ nav ul li a {
 /*Home Page Image Styles*/
 .big-img img {
    border-radius: 8px;
-   width: 100%;
+   width: 80%;
    height: auto;
 }
 /*Explore Courses Styles*/
@@ -113,4 +114,14 @@ nav ul li a {
     .our-campus {
         padding:20px;
         background-color: #FAFAFA;
+    }
+
+    .our-campus h2 {
+        font-size:30px;
+        margin-bottom:20px;
+    }
+
+    .our-campus p {
+        font-size:20px;
+        margin-bottom:20px;
     }
