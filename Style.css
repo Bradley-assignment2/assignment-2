@@ -25,6 +25,7 @@ Header {
     position: sticky;
     top:0;
     gap: 20px;
+    box-shadow: 5px 5px 10px #414C57;
 }
 
 .active {
@@ -76,6 +77,7 @@ nav ul li a {
    width: 80%;
    height: auto;
 }
+
 /*Explore Courses Styles*/
 .explore-courses {
     padding:20px;
