@@ -39,6 +39,7 @@ Header {
     color: #FAFAFA;
     padding:5px;
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: sticky;
@@ -63,10 +64,10 @@ Nav ul {
     margin: 0;
     padding:0;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 nav ul li {
-    margin: 0;
+    margin: 5px;
 }
 
 nav ul li a {
@@ -75,6 +76,20 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* This fixes header not being fully visible on mobile/smaller res*/
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    Header {
+        position:static;
+    }
+    
+}
 /*Welcome Styles*/
 .welcome {
     background-color:#FAFAFA;
@@ -147,3 +162,46 @@ nav ul li a {
         font-size:20px;
         margin-bottom:20px;
     }
+
+/*Contact Us Styles*/
+.contact-us-access {
+    padding:20px;
+    background-color: #FAFAFA;
+}
+
+.contact-us-access h2 {
+    font-size:30px;
+    margin-bottom:20px;
+    color: #004475;
+}
+
+.contact-us-access h3 {
+    font-size:25px;
+    margin-bottom:20px;
+    color: #414C57;
+}
+
+.contact-us-access p {
+    font-size:20px;
+    margin-bottom:20px;
+    color: #414C57;
+}
+.contact-us-access a {
+    font-size:16px;
+    font-weight: bold;
+    color: #414C57;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.back-to-home {
+  padding:20px;
+  background-color: #FAFAFA;
+ }
+    
+    .back-to-home h3 {
+        font-size: 25px;
+        margin-bottom:20px;
+        color:#414C57;
+    }
+    
