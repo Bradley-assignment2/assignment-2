@@ -239,3 +239,59 @@ footer a {
         color:#414C57;
     }
 
+/*About Us Styles*/
+.about-us-access {
+    padding:20px;
+    background-color: #FAFAFA;
+
+}
+
+.about-us-access h2 {
+    font-size:30px;
+    margin-bottom:20px;
+    color: #004475;
+}
+
+.about-us-access p {
+    font-size:20px;
+    margin-bottom:20px;
+    color: #414C57;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* About Us Location Styles*/
+.campus-locations {
+    padding:20px;
+    background-color: #FAFAFA;
+}
+
+.campus-locations h2 {
+    font-size:30px;
+    margin-bottom:20px;
+    color: #004475;
+}
+
+.campus-locations p {
+    font-size:20px;
+    margin-bottom:20px;
+    color: #414C57;
+}
+
+.campus-locations strong {
+    font-size:25px;
+    color: #414C57;
+}
+
+.campus-locations div {
+    padding:20px;
+
+}
+
+.campus-locations a {
+    text-decoration: none;
+    color:#414C57;
+}
+
+/*Tours Styles*/
