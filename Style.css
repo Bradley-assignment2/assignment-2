@@ -282,12 +282,17 @@ footer a {
 .campus-locations strong {
     font-size:25px;
     color: #414C57;
+    
 }
 
-.campus-locations div {
-    padding:20px;
+.campus-locations iframe{
+    width:100%;
+    height:auto;
+    min-height:200px;
+    padding-bottom: 50px;
 
 }
+
 
 .campus-locations a {
     text-decoration: none;
