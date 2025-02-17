@@ -106,6 +106,7 @@ footer {
     font-size: 17px;
     font-weight: bold;
     padding: 20px;
+    padding-bottom:10px ;
     display:flex;
     flex-direction:column;
     justify-content: space-between;
@@ -198,9 +199,9 @@ footer a {
 }
 
 .button {
-    background:rgba(2, 188, 229, 0.5);
+    background: #02BCE5;
     border: none;
-    color: #004475;
+    color: #414C57;
     font-weight: bold;
     padding: 15px 20px;
     text-align: center;
@@ -264,8 +265,8 @@ footer a {
 }
 
 .millfield-image img {
-    width:60%;
-    height: auto;
+    width:40%;
+    height: 50%;
     border-radius: 20px;
     margin-bottom: 20px;
 }
@@ -308,9 +309,8 @@ footer a {
 
 .campus-locations p {
     font-size:20px;
-    margin-bottom:20px;
+
     color: #414C57;
-    padding-bottom: 20px;
 }
 
 .campus-locations strong {
@@ -349,7 +349,7 @@ footer a {
 
 .tours h3 {
     font-size:25px;
-    color: #004475;
+    color: #004475ad;
 }
 
 .tours p {
