@@ -1,6 +1,3 @@
-/* This is where we will add any custom JavaScript features*/
-console.log("Welcome to the Belfast Met Access Site");
-
 /*This function allows the use of accordion menus on the site*/
 var accordions =
 document.getElementsByClassName("accordion");
